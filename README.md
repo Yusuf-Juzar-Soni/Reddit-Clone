@@ -1,4 +1,4 @@
-# Reddit-CLone
+# Reddit-Clone
 <p align="center">  
   <img  align="center" src="https://github.com/SaiNikhilYandamuri/simulation-of-reddit/blob/main/client/src/components/resources/redditImage.PNG">
 </p>
@@ -20,11 +20,40 @@ We have simulated various features present in the original web application like
 ## How it was built
 1) Designed 3-tier distributed/scalable web application using message queues, caching, and connection pooling to improve throughput by approximately 70% as opposed to    traditional backend implementations.
 2) Implemented the Frontend in ReactJS  
-3) Used React Testing Library to write frontend tests and Mocha to write backend tests to see if system functions as expected.
-4) Deployed the application on AWS EC2 instances to leverage easy scalability the cloud platform has to offer. 
-5) Organized the development lifecycle to mimic real world version control and agile methodologies. 
+3) Implemented backend using a combination of MySQL and MongoDB.
+4) Used Apache Kafka, Zookeeper, Redis caching to improve performance.
+5) Used React Testing Library to write frontend tests and Mocha to write backend tests to see if system functions as expected.
+6) Deployed the application on AWS EC2 instances to leverage easy scalability the cloud platform has to offer. 
+7) Organized the development lifecycle to mimic real world version control and agile methodologies. 
 
 ## Features
+<p align="center">  
+  <img  align="center" src="https://github.com/Yusuf-Juzar-Soni/Reddit-Clone/blob/main/client/src/components/resources/img27.jpg">
+</p>
+<p align="center">  
+  <img  align="center" src="https://github.com/Yusuf-Juzar-Soni/Reddit-Clone/blob/main/client/src/components/resources/img30.jpg">
+</p>
+<p align="center">  
+  <img  align="center" src="https://github.com/Yusuf-Juzar-Soni/Reddit-Clone/blob/main/client/src/components/resources/img31.jpg">
+</p>
+<p align="center">  
+  <img  align="center" src="https://github.com/Yusuf-Juzar-Soni/Reddit-Clone/blob/main/client/src/components/resources/img34.jpg">
+</p>
+<p align="center">  
+  <img  align="center" src="https://github.com/Yusuf-Juzar-Soni/Reddit-Clone/blob/main/client/src/components/resources/img35.jpg">
+</p>
+<p align="center">  
+  <img  align="center" src="https://github.com/Yusuf-Juzar-Soni/Reddit-Clone/blob/main/client/src/components/resources/img38.jpg">
+</p>
+<p align="center">  
+  <img  align="center" src="https://github.com/Yusuf-Juzar-Soni/Reddit-Clone/blob/main/client/src/components/resources/img41.jpg">
+</p>
+<p align="center">  
+  <img  align="center" src="https://github.com/Yusuf-Juzar-Soni/Reddit-Clone/blob/main/client/src/components/resources/img45.jpg">
+</p>
+<p align="center">  
+  <img  align="center" src="https://github.com/Yusuf-Juzar-Soni/Reddit-Clone/blob/main/client/src/components/resources/img46.jpg">
+</p>
 
 ## Tools used 
  ReactJS, NodeJS, ExpressJS, Mongo DB, MySQL, HTML5, PassportJS, Apache Kafka, Redis Caching
@@ -41,6 +70,8 @@ A larger cloud instance (more then t2. micro capacity) would be needed to ensure
 Multiple image upload functionality while creating post
 Ability to create subreddits.
 More granularity in community moderations page.
+
+### Kindly refer to documents present in project folder for further information.
 
 
 
