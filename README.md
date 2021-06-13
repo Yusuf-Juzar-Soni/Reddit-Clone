@@ -62,14 +62,14 @@ We have simulated various features present in the original web application like
 Before running this locally you must have Node,Apache Kafka (version 2.11),Zookeeper,Redis, MySQL,MongoDB etc.setup. 
 
 ## Challenges we ran into
-Tricky to implement Kafka for such a large scale application. Multiple zookepers would be needed to ensure smooth functioning.
-Integration of various modules led to various merge conflicts.
-A larger cloud instance (more then t2. micro capacity) would be needed to ensure a decent reponse time from system.
+* Tricky to implement Kafka for such a large scale application. Multiple zookepers would be needed to ensure smooth functioning.
+* Integration of various modules led to various merge conflicts.
+* A larger cloud instance (more then t2. micro capacity) would be needed to ensure a decent reponse time from system.
 
 ## Future Scope
-Multiple image upload functionality while creating post
-Ability to create subreddits.
-More granularity in community moderations page.
+* Multiple image upload functionality while creating post
+* Ability to create subreddits.
+* More granularity in community moderations page.
 
 ### Kindly refer to documents present in project folder for further information.
 
